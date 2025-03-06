@@ -1,12 +1,14 @@
 *{
     background-color: #c3c1c4;
+    
 }
 
 .fondo{
     position:relative;
     text-align: center;
     opacity: 70%;
-    top:100px
+    top:100px;
+    z-index: 2;
 }
 
 .encabezado{
@@ -17,4 +19,15 @@
     width: 100vw;
     height: 10vh;
     background-color: rgb(107, 106, 106);
+}
+.fortuner{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    width: 100%;
+    }
+.fortu_letra{
+    position: relative;
+    top: 100px;
+    font-size: 20px;
 }
