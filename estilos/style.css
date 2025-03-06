@@ -1,8 +1,20 @@
-.fondo{
-    width: 100px;
+*{
+    background-color: #c3c1c4;
 }
-h2{
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: pink;
+
+.fondo{
+    position:relative;
+    text-align: center;
+    opacity: 70%;
+    top:100px
+}
+
+.encabezado{
+    position: relative;
+    top: -507px;
+    left: -9px;
+    border: 1px solid rgb(107, 106, 106);
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(107, 106, 106);
 }
