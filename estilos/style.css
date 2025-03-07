@@ -28,11 +28,24 @@
     }
 .fortu_letra{
     position: relative;
-    top: -460px;
-    font-size: 20px;
-    left: 140px;
+    top: -500px;
+    font-size: 27px;
+    width: 20%;
+    left: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fortuner{
     width: 100%;
+}
+.foto2{
+    position: relative;
+    
+    width: 10%;
+    top: -750px;
+}
+.logo_toyota{
+    position: relative;
+   width: 200%;
+   top:40px;
+   left: 90px;
 }
