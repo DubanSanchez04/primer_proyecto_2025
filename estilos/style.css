@@ -8,7 +8,7 @@
     text-align: center;
     opacity: 70%;
     top:100px;
-    z-index: 2;
+  
 }
 
 .encabezado{
@@ -20,14 +20,32 @@
     height: 10vh;
     background-color: rgb(107, 106, 106);
 }
-.fortuner{
-    position: absolute;
-    top: 50px;
-    z-index: 1;
-    width: 100%;
+.foto1{
+    position: relative;
+    
+    width: 30%;
+    top: -450px;
     }
 .fortu_letra{
     position: relative;
-    top: 100px;
-    font-size: 20px;
+    top: -500px;
+    font-size: 27px;
+    width: 20%;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fortuner{
+    width: 100%;
+}
+.foto2{
+    position: relative;
+    
+    width: 10%;
+    top: -750px;
+}
+.logo_toyota{
+    position: relative;
+   width: 200%;
+   top:40px;
+   left: 90px;
 }
