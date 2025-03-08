@@ -30,6 +30,7 @@
    background-color: gray;
    background-size: cover;
     background-position: center;
+    margin-bottom: -20px;
 }
 .menu{
     top: 0;
@@ -43,6 +44,7 @@
     color: aliceblue;
     font-size: 19px;
     font-weight: 800;
+    background-size: cover;
 }
 .menu .navbar ul li {
     position:relative;
