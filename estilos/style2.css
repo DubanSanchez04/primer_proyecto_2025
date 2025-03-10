@@ -48,20 +48,14 @@ body{
     left: 20px; /* Ajusta la distancia desde el borde izquierdo */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
-<<<<<<< HEAD
 
 .wp a {
     bottom: 20px; /* WhatsApp más abajo */
-=======
-.wp a img:hover {
-    transform: scale(1.2); 
->>>>>>> 04c05e5c111566959d4ba63007bf2e7147145c37
 }
 
 .fb a {
     bottom: 80px; /* Facebook encima de WhatsApp */
 }
-<<<<<<< HEAD
 
 .wp a img, .fb a img {
     width: 50px; /* Ajusta el tamaño */
@@ -70,10 +64,6 @@ body{
 
 .wp a img:hover, .fb a img:hover {
     transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
-=======
-.fb a img:hover {
-    transform: scale(1.2); 
->>>>>>> 04c05e5c111566959d4ba63007bf2e7147145c37
 }
 .menu .navbar ul li a{
     font-size: 17px;
@@ -141,6 +131,7 @@ body{
 .interior{
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
 .interior h2{
     font-size: 35px;
