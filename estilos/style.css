@@ -35,7 +35,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .fortuner{
-    width: 100%;
+    width: 90%;
+    top: 30px;
+    position: relative;
 }
 .foto2{
     position: relative;
@@ -46,6 +48,38 @@
 .logo_toyota{
     position: relative;
    width: 200%;
-   top:40px;
+   top:-90px;
    left: 90px;
+}
+
+.foto_supra{
+    top: -810px;
+    position: relative;
+    left: 1100px;
+}
+.supra{
+    width: 30%;
+}
+
+.supra_letra{
+    position: relative;
+    top: -820px;
+    font-size: 27px;
+    width: 20%;
+    left: 1150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foto3{
+    position: relative;
+    
+    width: 10%;
+    top: -750px;
+}
+.logo_nissan{
+   position: relative;
+   width: 87%;
+   top:-525px;
+   left: 520px;
+   ;
 }

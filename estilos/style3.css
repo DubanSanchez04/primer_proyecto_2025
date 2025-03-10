@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    background-color: rgb(253, 253, 253);
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+
+.title {
+    margin-top: -6.04px;
+    background: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    padding: 10px 0;
+    position: sticky;
+}
+
+.banner1{
+    object-fit: cover;
+    width: 100%;
+    margin: cover;
+}
+
+.logo img {
+    width: 100%; 
+    max-width: 120px; /* Ajusta el tamaño máximo del logo según necesites */
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wp a{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.wp a img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+}
+.fb a{
+    position: fixed;
+    left: 0px;
+    bottom: 60px;
+}
+.fb a img:hover {
+    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+}
+.menu .navbar ul li a{
+    font-size: 17px;
+    padding: 20px;
+    color: rgb(34, 33, 33);
+    display: block; /*El padding se coloque correctamente*/
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: orange;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.botonan{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.btnficha{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(255, 252, 252);
+    border-radius: 40px;
+    border-color: black;
+    background-color: #b21717;
+    padding:11px 35px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    display: table;
+}
+.btnficha:hover{
+    background-color: #f60000
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.caracter{
+    text-align: center;
+    position: relative;
+}
+
+.Diseño{
+  
+    text-align: center;
+}
+.Diseño h2{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.txt-p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.interior{
+    padding: 100px 0;
+    text-align: center;
+}
+.interior h2{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.interior p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.LATERAL{
+    padding: 100px 0;
+    text-align: center;
+}
+.LATERAL h2{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.LATERAL p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.TECNOLOGIAS H1{
+    font-size: 55px;
+}
+.TECNOLOGIAS{
+    padding: 100px 0;
+    text-align: center;
+}
+.TECNOLOGIAS h2{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.TECNOLOGIAS p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.modos{
+    padding: 100px 0;
+    text-align: center;
+}
+.modos h2{
+   font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.modos p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.motor{
+    padding: 100px 0;
+    text-align: center;
+}
+.motor h2{
+    font-size: 35px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.motor p{
+    padding: 0 250px;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
