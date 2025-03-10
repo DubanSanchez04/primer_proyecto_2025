@@ -43,21 +43,27 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.wp a{
+.wp a, .fb a {
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
-.wp a img:hover {
-    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+
+.wp a {
+    bottom: 20px; /* WhatsApp más abajo */
 }
-.fb a{
-    position: fixed;
-    left: 0px;
-    bottom: 60px;
+
+.fb a {
+    bottom: 80px; /* Facebook encima de WhatsApp */
 }
-.fb a img:hover {
-    transform: scale(1.2); /* Aumenta el tamaño en un 20% */
+
+.wp a img, .fb a img {
+    width: 50px; /* Ajusta el tamaño */
+    transition: transform 0.3s ease; /* Suaviza la animación */
+}
+
+.wp a img:hover, .fb a img:hover {
+    transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
 }
 .menu .navbar ul li a{
     font-size: 17px;
