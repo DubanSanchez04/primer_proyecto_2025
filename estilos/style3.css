@@ -27,16 +27,21 @@ body{
     padding: 10px 0;
     position: sticky;
 }
-
-.banner1{
-    object-fit: cover;
-    width: 100%;
-    margin: cover;
-}
-
 .logo img {
     width: 100%; 
     max-width: 120px; /* Ajusta el tamaño máximo del logo según necesites */
+}
+.banner1{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    left: 80px;
+}
+.bannersp{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    left: 80px;
 }
 .menu{
     display: flex;
