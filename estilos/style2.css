@@ -58,12 +58,12 @@ body{
 }
 
 .wp a img, .fb a img {
-    width: 50px; /* Ajusta el tamaño */
-    transition: transform 0.3s ease; /* Suaviza la animación */
+    width: 50px; 
+    transition: transform 0.3s ; 
 }
 
 .wp a img:hover, .fb a img:hover {
-    transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
+    transform: scale(1.2); 
 }
 .menu .navbar ul li a{
     font-size: 17px;
@@ -98,8 +98,10 @@ body{
     text-align: center;
     text-transform: uppercase;
     display: table;
+    transition-duration: 500ms;
 }
 .btnficha:hover{
+    box-shadow: 0 0 16px black;
     background-color: #f60000
 }
 .container{

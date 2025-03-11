@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+.colorunico{
+    margin-top: -6.04px;
+    background: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    padding: 10px 0;
+    position: sticky;
+}
+.banner1{
+    object-fit: cover;
+    width: 100%;
+    margin: cover;
+}
+
+.logo img {
+    width: 100%; 
+    max-width: 120px; 
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagen{
+    border: 2px solid #f3f3f3;
+    text-align: center;
+
+}
+.menu .navbar ul li a:hover{
+    color: orange;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+.navbar ul li a{
+    color: black;
+}
+.menu .navbar ul li a{
+    font-size: 17px;
+    padding: 20px;
+    color: rgb(34, 33, 33);
+    display: block; 
+    font-weight: 600;
+}
+.tabla {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+table {
+    border-collapse: collapse;
+    border-color: rgb(241, 119, 119);
+    width: 80%; 
+    text-align: center;
+}
+.botonan{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.btnficha{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(255, 252, 252);
+    border-radius: 40px;
+    border-color: black;
+    background-color: #b21717;
+    padding:11px 35px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    display: table;
+    transition-duration: 500ms;
+}
+.btnficha:hover{
+    background-color: red;
+    box-shadow: 0 0 16px black;
+}
