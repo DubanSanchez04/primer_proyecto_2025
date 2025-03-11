@@ -52,15 +52,14 @@ body{
     cursor: pointer;
     display: none;
 }
-.navbar ul li a{
-    color: black;
-}
+
 .menu .navbar ul li a{
     font-size: 17px;
     padding: 20px;
     color: rgb(34, 33, 33);
     display: block; 
     font-weight: 600;
+    transition-duration: 500ms;
 }
 .tabla {
     display: flex;

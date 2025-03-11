@@ -71,6 +71,7 @@ body{
     color: rgb(34, 33, 33);
     display: block; 
     font-weight: 600;
+    transition-duration: 500ms;
 }
 .menu .navbar ul li a:hover{
     color: orange;
