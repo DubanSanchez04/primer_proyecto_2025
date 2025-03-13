@@ -28,7 +28,7 @@ body {
 }
 
 
-.foto1, .foto_supra, .foto5 {
+.foto1{
     background-color: white;
     padding: 15px;
     margin: 15px auto;
@@ -37,7 +37,24 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.foto_supra{
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.foto5 {
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
 .fortuner {
     width: 80%;
@@ -63,7 +80,7 @@ li {
 li a {
     text-decoration: none;
     color: white;
-    background-color: #007bff;
+    background-color: #000000;
     padding: 12px 18px;
     border-radius: 5px;
     display: inline-block;
@@ -73,13 +90,6 @@ li a {
 }
 
 li a:hover {
-    background-color: #0056b3;
+    background-color: #ff0101;
 }
 
-/* Pie de página */
-footer {
-    background-color: #222;
-    color: white;
-    padding: 15px;
-    margin-top: 20px;
-}
