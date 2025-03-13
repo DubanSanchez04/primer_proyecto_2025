@@ -115,7 +115,7 @@ body{
 }
 
 .Diseño{
-  
+    margin-top: 15px;
     text-align: center;
 }
 .Diseño h2{
@@ -132,6 +132,7 @@ body{
 }
 
 .interior{
+    margin-top: -15px;
     padding: 100px 0;
     text-align: center;
     position: relative;
