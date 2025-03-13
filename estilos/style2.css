@@ -13,6 +13,27 @@ body{
     font-family: "Poppins", sans-serif;
 
 }
+.btn-index {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-index:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
 
 .title {
     margin-top: -6.04px;
@@ -45,16 +66,16 @@ body{
 }
 .wp a, .fb a {
     position: fixed;
-    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    left: 20px; 
+    z-index: 1000; 
 }
 
 .wp a {
-    bottom: 20px; /* WhatsApp más abajo */
+    bottom: 20px; 
 }
 
 .fb a {
-    bottom: 80px; /* Facebook encima de WhatsApp */
+    bottom: 80px; 
 }
 
 .wp a img, .fb a img {

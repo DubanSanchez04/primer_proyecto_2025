@@ -12,7 +12,21 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-
+.btn-index {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
 .header {
     background: white;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
